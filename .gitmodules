@@ -1,3 +1,0 @@
-[submodule "roscopter"]
-	path = roscopter
-	url = git@github.com:mattjrush/roscopter.git

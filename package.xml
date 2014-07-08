@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package>
-  <name>snotbot-groundstation</name>
+  <name>snotbot_groundstation</name>
   <version>0.0.0</version>
   <description>The groundstation package</description>
 
