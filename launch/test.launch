@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="snotbot_groundstation" name="xbox_control" type="xbox_to_ros.py"/>
+ </launch>

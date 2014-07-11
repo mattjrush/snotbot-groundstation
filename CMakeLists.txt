@@ -104,7 +104,7 @@ include_directories(
 # )
 
 ## Declare a cpp executable
-# add_executable(xbox_control_node src/xbox_control_node.cpp)
+#add_executable(xbox_control src/xbox_control_node.py)
 
 ## Add cmake target dependencies of the executable/library
 ## as an example, message headers may need to be generated before nodes
@@ -124,10 +124,10 @@ include_directories(
 
 ## Mark executable scripts (Python etc.) for installation
 ## in contrast to setup.py, you can choose the destination
-# install(PROGRAMS
-#   scripts/my_python_script
-#   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
-# )
+install(PROGRAMS
+  src/xbox_to_ros.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
 
 ## Mark executables and/or libraries for installation
 # install(TARGETS xbox_control xbox_control_node
